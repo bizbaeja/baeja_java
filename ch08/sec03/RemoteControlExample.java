@@ -1,4 +1,4 @@
-package ch08.sec03;
+package baeja_java.ch08.sec03;
 
 public class RemoteControlExample {
 	public static void main(String[] args) {

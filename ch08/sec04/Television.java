@@ -1,4 +1,4 @@
-package ch08.sec04;
+package baeja_java.ch08.sec04;
 
 public class Television implements RemoteControl {
 	//필드

@@ -1,4 +1,4 @@
-package ch01.sec09.exam;
+package baeja_java.ch01.sec09.exam;
 
 public class CarExample  {
 	public static void main(String[] args) {

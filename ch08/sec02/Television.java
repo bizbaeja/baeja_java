@@ -1,4 +1,4 @@
-package ch08.sec02;
+package baeja_java.ch08.sec02;
 
 public class Television implements RemoteControl {
 	@Override
