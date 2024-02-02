@@ -15,8 +15,11 @@ public class ButtonExample3 {
 				System.out.println("Ok 버튼을 클릭했습니다.");
 			}
 		}
-		
-		ClickListener listner = new Button.ClickListener() {
+		//인터페이스, 추상클래스로는 객체를 만들수 없으나, 예외적으로 생성가능- 익명의 클래스 
+				// new 추상클래스|인터페이스 (){
+				//  (추상메소드 재정의)
+				//}
+		Button.ClickListener listner = new Button.ClickListener() {
 			@Override
 			public void onClick() {
 				System.out.println("Ok 버튼을 클릭했습니다.");
