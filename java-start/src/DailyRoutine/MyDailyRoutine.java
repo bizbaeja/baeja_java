@@ -29,13 +29,17 @@ public class MyDailyRoutine {
             // 주중 루틴
             weekdayRoutine.wake();
             weekdayRoutine.takeAShower();
-            weekdayRoutine.take();
+            if (weekdayRoutine.isWakeEarly()){
+                weekdayRoutine.takeBus();
+            }else {
+                weekdayRoutine.takeSubway();
+            }
             weekdayRoutine.checkIn();
             weekdayRoutine.attendClass();
             weekdayRoutine.eatLunch();
             weekdayRoutine.attendClass();
             weekdayRoutine.checkOut();
-            weekdayRoutine.take();
+            weekdayRoutine.takeBus();
             if (weekdayRoutine.hasHomework()){
                 WeekdayRoutine.doHomework();
             }else{

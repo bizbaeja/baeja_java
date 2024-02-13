@@ -2,5 +2,6 @@ package DailyRoutine;
 
 public interface Transport {
 
-    void take();
+    void takeBus();
+    void takeSubway();
 }

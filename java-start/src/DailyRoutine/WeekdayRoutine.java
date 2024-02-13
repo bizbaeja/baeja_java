@@ -7,8 +7,11 @@ public class WeekdayRoutine implements WakeUp,FeedCat,Transport,GotoSleep,Eat {
     }
 
     @Override
-    public void take() {
-        System.out.println("대중교통을 탑니다.");
+    public void takeBus() {
+        System.out.println("운이좋게 버스를 탑니다.");
+    }
+    public void takeSubway(){
+        System.out.println("붐비는 지하철을 타야합니다.");
     }
 
     @Override
@@ -44,7 +47,9 @@ public class WeekdayRoutine implements WakeUp,FeedCat,Transport,GotoSleep,Eat {
     boolean hasHomework() {
         return false;
     }
-
+    boolean isWakeEarly(){
+        return true;
+    }
     static void doHomework() {
         System.out.println("과제를 합니다.");
     }
