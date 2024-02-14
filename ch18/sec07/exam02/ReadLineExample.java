@@ -5,7 +5,7 @@ import java.io.*;
 public class ReadLineExample {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(
-			new FileReader("src/ch18/sec07/exam02/ReadLineExample.java")
+			new FileReader("homework/ch18/sec07/exam02/ReadLineExample.java")
 		);
 		
 		int lineNo = 1;

@@ -1,4 +1,4 @@
-package src.HashMap;
+package homework.HashMap;
 
 import java.util.HashMap;
 import java.util.Iterator;

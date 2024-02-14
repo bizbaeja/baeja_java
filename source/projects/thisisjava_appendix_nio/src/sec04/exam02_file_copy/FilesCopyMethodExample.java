@@ -8,7 +8,7 @@ import java.nio.file.StandardCopyOption;
 
 public class FilesCopyMethodExample {
 	public static void main(String[] args) throws IOException {		
-		Path from = Paths.get("src/sec04/exam02_file_copy/house.jpg");
+		Path from = Paths.get("homework/sec04/exam02_file_copy/house.jpg");
 		Path to = Paths.get("C:/Temp/house.jpg");
 		
 		Files.copy(from, to, StandardCopyOption.REPLACE_EXISTING);

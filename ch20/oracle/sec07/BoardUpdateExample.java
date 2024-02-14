@@ -35,7 +35,7 @@ public class BoardUpdateExample {
 			pstmt.setString(1, "눈사람");
 			pstmt.setString(2, "눈으로 만든 사람");
 			pstmt.setString(3, "snowman.jpg");
-			pstmt.setBlob(4, new FileInputStream("src/ch20/oracle/sec07/snowman.jpg"));
+			pstmt.setBlob(4, new FileInputStream("homework/ch20/oracle/sec07/snowman.jpg"));
 			pstmt.setInt(5, 3);  //boards 테이블에 있는 게시물 번호(bno) 지정
 			
 			//SQL 문 실행

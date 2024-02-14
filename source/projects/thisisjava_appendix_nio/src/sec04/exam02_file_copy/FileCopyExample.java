@@ -10,7 +10,7 @@ import java.nio.file.StandardOpenOption;
 public class FileCopyExample {
 	public static void main(String[] args) throws IOException {		
 		//Path 생성
-		Path from = Paths.get("src/sec04/exam02_file_copy/house.jpg");
+		Path from = Paths.get("homework/sec04/exam02_file_copy/house.jpg");
 		Path to = Paths.get("C:/Temp/house.jpg");
 		
 		//입력용 FileChannel 열기

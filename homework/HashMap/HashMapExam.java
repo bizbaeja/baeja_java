@@ -1,4 +1,4 @@
-package src.HashMap;
+package homework.HashMap;
 
 import jdk.jfr.DataAmount;
 

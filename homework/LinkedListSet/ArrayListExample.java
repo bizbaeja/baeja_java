@@ -1,8 +1,7 @@
-package src.LinkedListSet;
+package homework.LinkedListSet;
 
 import java.util.ArrayList;
 import java.util.*;
-import java.util.zip.ZipFile;
 
 public class ArrayListExample {
     public static void main(String[] args) {

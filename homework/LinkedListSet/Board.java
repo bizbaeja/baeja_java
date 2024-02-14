@@ -1,4 +1,4 @@
-package src.LinkedListSet;
+package homework.LinkedListSet;
 
 import jdk.jfr.DataAmount;
 
