@@ -12,5 +12,15 @@ public class LambdaExample {
 
 		//실행문이 한 개일 경우 중괄호 생략 가능
 		person.action(() -> System.out.println("퇴근합니다."));
+		person.action(new Workable() {
+			@Override
+			public void work() {
+				System.out.println("익명의 클래스로 일할 수 있게 구현함");
+
+			}
+		});
+
+		person.action(()-> System.out.println("퇴근합니다."));
+
 	}
 }

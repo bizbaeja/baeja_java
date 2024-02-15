@@ -14,7 +14,7 @@ public class ParallelStreamExample {
 		list.add("람다식");
 		list.add("박병렬");
 
-		//병렬 처리
+		//병렬 처리 스레드이름확인하기
 		Stream<String> parallelStream = list.parallelStream();
 		parallelStream.forEach( name -> {
 			System.out.println(name + ": " + Thread.currentThread().getName());

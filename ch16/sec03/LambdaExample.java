@@ -12,6 +12,7 @@ public class LambdaExample {
 		person.action1((name, job) -> System.out.println(name + "이 " + job + "을 하지 않습니다."));
 		
 		//매개변수가 한 개일 경우
+	// 인자가한개일경우 매개변수 괄호 생
 		person.action2(word -> {
 			System.out.print("\"" + word + "\"");
 			System.out.println("라고 말합니다.");

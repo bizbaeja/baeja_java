@@ -1,6 +1,6 @@
 package ch04.sec05;
 
-public class SumFrom1To100Example {
+public class SumForm1To100Example {
 	public static void main(String[] args) {
 		int sum = 0;
 		

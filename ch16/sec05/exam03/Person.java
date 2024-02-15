@@ -1,6 +1,7 @@
 package ch16.sec05.exam03;
 
 public class Person {
+	//인터페이스에 대한 참조변수가 인자로 전달 
 	public Member getMember1(Creatable1 creatable) {
 		String id = "winter";
 		Member member = creatable.create(id);

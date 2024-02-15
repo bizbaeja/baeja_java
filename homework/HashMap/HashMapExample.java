@@ -36,7 +36,17 @@ public class HashMapExample {
             int v = map.get(k);
             System.out.println(k + ":" + v);
         }
+ //Entry set 컬렉션을 얻고 반복해서 키와 값을 얻기
+        Set<Map.Entry<String, Integer>>entrySet =map.entrySet();
+        Iterator<Map.Entry<String, Integer>> entryIterator = entrySet.iterator();
+        while (entryIterator.hasNext()){
+            Map.Entry<String, Integer> entry = entryIterator.next();
+            String k = entry.getKey();
+            Integer v = entry.getValue();
+            System.out.println(k + ":" + v);
+        }
  // 많이 사용하는 코드
+
 
     }
 

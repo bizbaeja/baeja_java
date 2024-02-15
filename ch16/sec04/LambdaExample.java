@@ -11,6 +11,7 @@ public class LambdaExample {
 		});
 
 		//리턴문이 하나만 있을 경우(연산식)
+		// 리턴문 한개일 때, 리턴문 꼭 빼자  
 		//person.action((x, y) -> {
 		// return (x + y);
 		//});
