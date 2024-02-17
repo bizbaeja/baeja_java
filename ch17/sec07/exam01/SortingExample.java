@@ -5,6 +5,8 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SortingExample {
+
+	//정렬은 기본적으로 오름차순으로 동작한다.(검색,정렬,출력->중간단계)
 	public static void main(String[] args) {
 		//List 컬렉션 생성
 		List<Student> studentList = new ArrayList<>();
@@ -20,7 +22,8 @@ public class SortingExample {
 		
 		//점수를 기준으로 내림차순으로 정렬한 새 스트림 얻기
 		studentList.stream()
+				//reverseOrder는 static 함수
 		.sorted(Comparator.reverseOrder())
-		.forEach(s -> System.out.println(s.getName() + ": " + s.getScore()));	
+		.forEach(s -> System.out.println(s.getName() + ": " + s.getScore()));
 	}
 }

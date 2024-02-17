@@ -21,7 +21,19 @@ public class CollectExample {
 		List<Student> maleList = totalList.stream()
 				.filter(s->s.getSex().equals("남"))
 				.toList();
-		
+//		List<Student> maleList = new ArrayList<>();
+//		for (Student student : totalList) {
+//			if ("남".equals(student.getSex())) {
+//				maleList.add(student);
+//			}
+//		}
+List<Student> mList = new ArrayList<>();
+totalList.stream()
+		.filter(s->s.getSex().equals("남"))
+		.map(s->mList.add(s))
+		.forEach(s-> System.out.println(s));
+
+
 		maleList.stream()
 			.forEach(s -> System.out.println(s.getName()));
 		
@@ -30,10 +42,12 @@ public class CollectExample {
 		//학생 이름을 키, 학생의 점수를 값으로 갖는 Map 생성
 		Map<String, Integer> map = totalList.stream()
 				.collect(
+						//toMap은 static함수
 					Collectors.toMap(
 						s -> s.getName(), //Student 객체에서 키가 될 부분 리턴
 						s -> s.getScore() //Student 객체에서 값이 될 부분 리턴
 					)
+
 			);
 			
 		System.out.println(map);

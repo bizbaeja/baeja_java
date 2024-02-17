@@ -9,6 +9,14 @@ public class Student {
 		this.score = score;
 	}
 
+	@Override
+	public String toString() {
+		return "Student{" +
+				"name='" + name + '\'' +
+				", score=" + score +
+				'}';
+	}
+
 	public String getName() { return name; }
 	public int getScore() { return score; }
 }

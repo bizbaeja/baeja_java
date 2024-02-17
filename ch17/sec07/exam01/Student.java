@@ -1,6 +1,6 @@
 package ch17.sec07.exam01;
 
-public class Student implements Comparable<Student> {
+public class Student implements Comparable<Student>  {
 	private String name;
 	private int score;
 
@@ -14,6 +14,7 @@ public class Student implements Comparable<Student> {
 
 	@Override
 	public int compareTo(Student o) {
-		return Integer.compare(score, o.score);
+		//Integer.compare(score, o.score);
+		return score - o.score;
 	}
 }

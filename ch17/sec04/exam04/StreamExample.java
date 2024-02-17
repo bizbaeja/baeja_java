@@ -8,9 +8,10 @@ import java.util.stream.Stream;
 
 public class StreamExample {
 	public static void main(String[] args) throws Exception {
+		//getResource 는 URL 정보임.
 		Path path = Paths.get(StreamExample.class.getResource("data.txt").toURI());
 		Stream<String> stream = Files.lines(path, Charset.defaultCharset());
-		stream.forEach(line -> System.out.println(line) );
+		stream.forEach(System.out::println);
 		stream.close();
 	}
 }

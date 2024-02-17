@@ -10,12 +10,14 @@ public class LoopingExample {
 		Arrays.stream(intArr)
 			.filter(a -> a%2==0)
 			.peek(n -> System.out.println(n)); 		//최종 처리가 없으므로 동작하지 않음
-
-		//중간 처리 메소드 peek()을 이용해서 반복 처리
+		System.out.println("step1");
+		//중간 처리 메소드 peek()을 이용해서 반복 처리 디버깅용도
+		//Consumer 는 매개변수를 하나 받는다.
 		int total = Arrays.stream(intArr)
 			.filter(a -> a%2==0)
 			.peek(n -> System.out.println(n)) 		//동작함
 			.sum(); //최종 처리
+		System.out.println("step2");
 		System.out.println("총합: " + total + "\n");
 
 		//최종 처리 메소드 forEach()를 이용해서 반복 처리

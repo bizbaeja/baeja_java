@@ -11,9 +11,10 @@ public class SortingExample {
 		studentList.add(new Student("신용권", 10));
 		studentList.add(new Student("유미선", 20));
 		
-		//점수를 기준으로 오름차순으로 정렬한 새 스트림 얻기
+		//점수를 기준으로 오름차순으로 정렬한 새 스트림 얻기 직접적으로 호출해버림.
 		studentList.stream()
 			.sorted((s1, s2) -> Integer.compare(s1.getScore(), s2.getScore()))
+				//.sorted((s1-s2
 			.forEach(s -> System.out.println(s.getName() + ": " + s.getScore()));	
 		System.out.println();
 		
