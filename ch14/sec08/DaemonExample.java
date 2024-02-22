@@ -2,6 +2,7 @@ package ch14.sec08;
 
 public class DaemonExample {
 	public static void main(String[] args) {
+
 		AutoSaveThread autoSaveThread = new AutoSaveThread();
 		autoSaveThread.setDaemon(true);
 		autoSaveThread.start();

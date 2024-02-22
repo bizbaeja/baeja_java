@@ -12,6 +12,7 @@ public class User1Thread extends Thread {
 	}
 
 	@Override
+	// setMemory1 메소드를 호출하여 memory 필드에 100을 저장하고 2초간 일시 정지시킨다.
 	public void run() {
 		calculator.setMemory1(100);
 	}

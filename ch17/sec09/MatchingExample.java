@@ -10,7 +10,7 @@ public class MatchingExample {
 		boolean result = Arrays.stream(intArr)
 				//a -> a%2==0는 Predicate 매개변수
 			.allMatch(a -> a%2==0);
-
+//and 연산자로 모든 요소가 주어진 조건을 만족하는지를 표현하는
 //스트림을 이용하면 심플해짐
 
 //		boolean result2 = false;

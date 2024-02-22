@@ -5,6 +5,7 @@ public class PrintThread extends Thread {
 		try {
 			while(true) {
 				System.out.println("실행 중");
+				//만약 sleep()이 없다면? -> interrupt() 호출해도 종료되지 않는다.
 				Thread.sleep(1);
 			}
 		} catch(InterruptedException e) {

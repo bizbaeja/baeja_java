@@ -13,6 +13,7 @@ public class CallableSubmitExample {
 		//계산 작업 생성 및 처리 요청
 		for(int i=1; i<=100; i++) {
 			final int idx = i;
+			// submit() 메소드는 Runnable 또는 Callable 객체를 매개값으로 받아 작업 처리 요청을 하고 Future 객체를 리턴한다.
 			Future<Integer> future = executorService.submit(new Callable<Integer>() {
 				@Override
 				public Integer call() throws Exception {
