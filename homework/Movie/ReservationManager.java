@@ -35,11 +35,16 @@ public class ReservationManager {
     }
 
     public void addReservationNumber(String reservationNumber, int row, int col) {
-        boolean[][] seats = new boolean[getRows()][getCols()];
-        seats[row - 1][col - 1] = true;
-        reservationNumbers.put(reservationNumber, seats);
+        if (isSeatAvailable(row, col)) {
+            setSeatStatus(row, col, true);
+            boolean[][] seats = new boolean[getRows()][getCols()];
+            seats[row - 1][col - 1] = true;
+            reservationNumbers.put(reservationNumber, seats);
+        } else {
+            System.out.println("예약 실패: 좌석 " + row + "," + col + "는 이미 예약되었습니다.");
+            // 이 경우 예약 번호를 추가하지 않음
+        }
     }
-
     public boolean checkReservationNumber(String reservationNumber, int row, int col) {
         if (reservationNumbers.containsKey(reservationNumber)) {
             return reservationNumbers.get(reservationNumber)[row - 1][col - 1];
@@ -67,6 +72,9 @@ public class ReservationManager {
     }
 
     public boolean isSeatReserved(int row, int col) {
-        return false;
+        if (!isValidSeat(row, col)) {
+            return false;
+        }
+        return reserve[row - 1][col - 1];
     }
 }
