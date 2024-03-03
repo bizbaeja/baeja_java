@@ -1,4 +1,3 @@
-package homework;
 
 public class Student {
     String no;
@@ -14,4 +13,4 @@ public class Student {
     void printInfo(){};
 }
 
-Student s1 = new Student();
+//Student s1 = new Student();
