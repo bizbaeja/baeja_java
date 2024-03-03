@@ -65,33 +65,31 @@ public class BoardExample10 {
     }
 
     public void read() {
-        System.out.println("[게시물 읽기]");
-        //게시물 번호 입력
-        int bno = Integer.parseInt(scanner.nextLine()) ; // 사용자 입력 번호 조정
+        int bno = 0;
+        while (true) {
+            System.out.println("[게시물 읽기]");
+            System.out.print("bno: ");
+            String input = scanner.nextLine();
+
+            try {
+                bno = Integer.parseInt(input);
+                break;
+            } catch (NumberFormatException e) {
+                if (input.isEmpty()) {
+                    System.out.println("게시물 번호가 입력되지 않았습니다. 다시 입력해주세요.");
+                } else {
+                    System.out.println("유효하지 않은 번호입니다. 다시 입력해주세요.");
+                }
+            }
+        }
 
         Board foundBoard = null;
         for (Board board : boardList) {
-            if (board.getBno() == bno) { // 게시물 번호 비교 조건 검토
+            if (board.getBno() == bno) {
                 foundBoard = board;
                 break;
             }
         }
-
-        if (foundBoard != null) {
-            // 게시물 출력
-        } else {
-            System.out.println("해당 번호의 게시물이 존재하지 않습니다.");
-        }
-        //할일 : 입력된 게시물 번호를 이용하여 게시물 목록에서 자료를 찾아 출력한다
-        //
-        //보조 메뉴 출력
-        //System.out.println("-------------------------------------------------------------------");
-        //System.out.println("보조 메뉴: 1.Update | 2.Delete | 3.List");
-        //System.out.print("메뉴 선택: ");
-        //String menuNo = scanner.nextLine();
-        //System.out.println();
-
-
 
         if (foundBoard != null) {
             System.out.println("-----------------------------------------------------------------------");
@@ -104,8 +102,7 @@ public class BoardExample10 {
         } else {
             System.out.println("해당 번호의 게시물이 존재하지 않습니다.");
         }
-
-
+        mainMenu(); // 게시물을 읽고 나서 메인 메뉴로 돌아갑니다.
     }
 
     public void update() {
@@ -150,6 +147,7 @@ public class BoardExample10 {
         }
 
         list();
+        mainMenu();
     }
 
     public void delete() {
@@ -175,6 +173,7 @@ public class BoardExample10 {
         }
 
         list();
+        mainMenu();
     }
     public void clear() {
         //할일 : 게시물 전체 삭제 기능 구현
@@ -185,6 +184,7 @@ public class BoardExample10 {
 
         //게시물 목록 출력
         list();
+        mainMenu();
     }
     public void exit() {
         System.exit(0);
