@@ -1,7 +1,10 @@
 <component name="libraryTable">
   <library name="sec10">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/ch07/sec10/sec10.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-20211205.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ojdbc8-19.12.0.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
