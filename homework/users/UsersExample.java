@@ -43,6 +43,25 @@ public class UsersExample {
             String name = scanner.nextLine();
             System.out.print("비밀번호: ");
             String password = scanner.nextLine();
+            //password validatin 시작
+            // 1. 비밀번호가 8자리 이상인지 확인
+            // 2. 비밀번호가 영문자, 숫자, 특수문자를 포함하는지 확인
+            if(password == null){
+                System.out.println("비밀번호가 null일 수 없습니다.");
+            } else {
+                if(password.length() < 8){
+                    System.out.println("비밀번호가 8자리 이상이어야 합니다.");
+                }
+                if(!password.matches(".*[a-zA-Z].*")){
+                    System.out.println("비밀번호에는 영문자가 포함되어야 합니다.");
+                }
+                if(!password.matches(".*[0-9].*")){
+                    System.out.println("비밀번호에는 숫자가 포함되어야 합니다.");
+                }
+                if(!password.matches(".*[!@#$%^&*].*")){
+                    System.out.println("비밀번호에는 특수문자가 포함되어야 합니다.");
+                }
+            }
             System.out.println("나이:");
             int age = Integer.parseInt(scanner.nextLine());
             System.out.print("이메일: ");

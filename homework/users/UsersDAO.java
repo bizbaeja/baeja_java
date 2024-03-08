@@ -22,7 +22,8 @@ public class UsersDAO {
     private static PreparedStatement userUpdatePstmt = null;
     private static PreparedStatement userDeleteAllPstmt = null;
 
-    private static PreparedStatement userValidationIdPsmt = null;
+    private static PreparedStatement userValidationIdPstmt = null;
+    private static PreparedStatement userValidationPasswordPstmt = null;
 
     static {
 
@@ -43,7 +44,9 @@ public class UsersDAO {
             userListPstmt = conn.prepareStatement("select * from users");
             userInsertPstmt = conn.prepareStatement("insert into users (userid, username, userpassword, userage, useremail) values (?, ?, ?, ?,?)");
             userDetailPstmt = conn.prepareStatement("select * from users where userid=?");
-            userValidationIdPsmt = conn.prepareStatement("select userid from users where userid=?  ");
+            userValidationIdPstmt = conn.prepareStatement("select userid from users where userid=?  ");
+            userValidationPasswordPstmt  = conn.prepareStatement("select userpassword from users whrere userpassword=? ");
+            //delete 가 되지 않았던 이유: ? 개수에 맞춰서 setString() 을 해주어야 한다.
             userDeletePstmt = conn.prepareStatement("delete from users where userid=?");
             userDeleteAllPstmt = conn.prepareStatement("delete from users");
             userUpdatePstmt = conn.prepareStatement("update users set username=?, userpassword=?,userage=?, useremail=? where userid=?");
@@ -155,8 +158,8 @@ public class UsersDAO {
     public boolean validationId(String userid){
         boolean result = false;
         try {
-            userValidationIdPsmt.setString(1, userid);
-            ResultSet rs = userValidationIdPsmt.executeQuery();
+            userValidationIdPstmt.setString(1, userid);
+            ResultSet rs = userValidationIdPstmt.executeQuery();
             if (rs.next()) {
                 result = true;
             }
@@ -166,4 +169,18 @@ public class UsersDAO {
     }
         return result;
     }
-}
+
+    public boolean  validationPassword(String userpassword){
+        boolean result = false;
+        try {
+            userValidationPasswordPstmt.setString(1, userpassword);
+            ResultSet rs = userValidationPasswordPstmt.executeQuery();
+            if (rs.next()) {
+                result = true;
+            }
+            rs.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
+}}
