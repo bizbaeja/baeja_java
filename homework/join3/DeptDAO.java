@@ -1,2 +1,9 @@
-package homework.join3;public class DeptDAO {
+package homework.join3;
+
+import java.sql.Connection;
+
+public class DeptDAO {
+    private Connection conn;
+
+
 }

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef710dec-2a14-450a-94f5-afe8f48c363f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Board2/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Board2/BoardExample10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Movie2/Moviebooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Movie2/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lombok.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baeja_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../baeja_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch19/sec06/CreateJsonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch19/sec06/CreateJsonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch19/sec06/ParseJsonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch19/sec06/ParseJsonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch19/sec07/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch19/sec07/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch19/sec07/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch19/sec07/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch19/sec07/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch19/sec07/SocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/mysql/sec09/exam01/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/mysql/sec09/exam01/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/mysql/sec09/exam02/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/mysql/sec09/exam02/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/mysql/sec11/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/mysql/sec11/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/oracle/sec09/exam01/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/oracle/sec09/exam01/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/oracle/sec09/exam01/UserSelectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/oracle/sec09/exam01/UserSelectExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/oracle/sec09/exam02/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/oracle/sec09/exam02/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/oracle/sec09/exam02/BoardSelectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/oracle/sec09/exam02/BoardSelectExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/oracle/sec12/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/oracle/sec12/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch20/oracle/sec12/BoardExample6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch20/oracle/sec12/BoardExample6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clean/code/design6/step04/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clean/code/design6/step04/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clean/code/design6/step04/DiscountCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clean/code/design6/step04/DiscountCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clean/code/design6/step04/DiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clean/code/design6/step04/DiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clean/code/design6/step04/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clean/code/design6/step04/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clean/code/design6/step04/PercentDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clean/code/design6/step04/PercentDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clean/code/design6/step04/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clean/code/design6/step04/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clean/code/design6/step04/Screening.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clean/code/design6/step04/Screening.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/MovieReservationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Movie/MovieReservationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/ReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Movie/ReservationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/SeatCancellation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Movie/SeatCancellation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/SeatChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Movie/SeatChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Movie/SeatReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Movie/SeatReservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-start/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/baeja_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/baeja_java/baeja_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/java-start/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_application_1/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_application_1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_application_2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_application_2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_application_3/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_application_3/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_lib/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_lib/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_lib/dist/my_lib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_module/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_module/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_module_a/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_module_a/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_module_a/dist/my_module_a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_module_b/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_module_b/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/my_module_b/dist/my_module_b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/bin/sec03/exam01_create_buffer/house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/bin/sec03/exam01_create_buffer/house2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/bin/sec03/exam01_create_buffer/house3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/bin/sec04/exam02_file_copy/house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/bin/sec09/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/src/sec04/exam02_file_copy/house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_nio/src/sec09/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_verify/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_verify/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_verify/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_verify/lib/json-20211205.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_verify/lib/lombok.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/projects/thisisjava_appendix_verify/lib/ojdbc8-19.12.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/mysql/account.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/mysql/boards.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/mysql/users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/oracle/account.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/oracle/boards.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/oracle/function.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/oracle/procesure.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/oracle/sequence.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/source/sql/oracle/users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_1/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_1/src/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_2/src/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_2/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_3/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_3/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_3/src/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_application_3/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_lib/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_lib/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_lib/dist/my_lib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_lib/src/pack1/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_lib/src/pack2/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_a/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_a/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_a/dist/my_module_a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_a/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_a/src/pack1/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_a/src/pack2/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_b/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_b/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_b/dist/my_module_b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_b/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_b/src/pack3/C.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/my_module_b/src/pack4/D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/bin/sec03/exam01_create_buffer/house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/bin/sec03/exam01_create_buffer/house2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/bin/sec03/exam01_create_buffer/house3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/bin/sec04/exam02_file_copy/house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/bin/sec09/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec02/exam01_path/PathExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec02/exam02_filesystem/FileSystemExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec02/exam03_file_directory/DirectoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec02/exam03_file_directory/FileExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec03/exam01_create_buffer/DirectBufferExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec03/exam01_create_buffer/NonDirentBufferExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec03/exam02_buffer_method/BufferMethodExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec03/exam03_convert_buffer/ArrayToIntBufferExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec03/exam03_convert_buffer/ByteBufferToArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec03/exam03_convert_buffer/ByteBufferToStringExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec04/exam01_file_read_write/FileChannelReadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec04/exam01_file_read_write/FileChannelWriteExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec04/exam02_file_copy/FileCopyExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec04/exam02_file_copy/FilesCopyMethodExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec04/exam02_file_copy/house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec05/AsynchronousFileChannelReadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec05/AsynchronousFileChannelWriteExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec06/exam01_tcpchannel/ClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec06/exam01_tcpchannel/ServerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec06/exam02_data_read_write/ClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec06/exam02_data_read_write/ServerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec06/exam03_threadpool/ClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec06/exam03_threadpool/ServerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec07/exam01_asynchronous_tcpchannel/ClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec07/exam01_asynchronous_tcpchannel/ServerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec07/exam02_data_read_write/ClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec07/exam02_data_read_write/ServerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec08/ClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec08/ServerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec09/ClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec09/ServerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_nio/src/sec09/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch06/exam14/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch06/exam15/MemberServiceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch06/exam18/ShopServiceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch06/exam19/AccountExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch07/exam08/SnowTire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch07/exam12/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch09/exam04/CarExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch09/exam05/ActionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch09/exam06/AnonymousExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch12/exam06/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch12/exam10/StringBuilderExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch12/exam12/IntegerCompareExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch18/exam07/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch19/exam07/ProductClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch20/exam08/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch20/exam09/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/bin/ch20/exam10/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/lib/json-20211205.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/lib/lombok.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/lib/ojdbc8-19.12.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch01/exam08/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch03/exam01/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch03/exam02/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch03/exam03/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch03/exam04/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch03/exam05/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch03/exam06/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch03/exam07/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch04/exam02/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch04/exam03/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch04/exam04/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch04/exam05/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch04/exam06/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch04/exam07/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch05/exam07/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch05/exam08/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch05/exam09/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam13/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam14/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam15/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam15/MemberServiceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam16/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam16/PrinterExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam17/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam17/PrinterExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam18/ShopService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam18/ShopServiceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam19/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam19/AccountExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam20/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch06/exam20/BankApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam06/Child.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam06/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam07/Child.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam07/ChildExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam07/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam08/SnowTire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam08/SnowTireExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam08/Tire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam10/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam10/Machine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam11/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam11/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam11/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam12/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam12/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam12/C.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch07/exam12/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam05/Remocon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam05/TV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam06/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam06/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam06/Soundable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam06/SoundableExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam07/DaoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam07/DataAccessObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam07/MySqlDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam07/OracleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam08/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam08/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam08/C.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch08/exam08/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch09/exam04/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch09/exam04/CarExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch09/exam05/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch09/exam05/ActionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch09/exam06/Anonymous.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch09/exam06/AnonymousExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch09/exam06/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch09/exam07/Chatting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch11/exam06/TryCatchFinallyExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch11/exam07/LoginExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch11/exam07/NotExistIDException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch11/exam07/WrongPasswordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch11/exam08/FileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch11/exam08/FileWriterExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam05/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam05/StudentExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam06/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam06/MemberExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam08/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam09/DecodingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam10/StringBuilderExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam11/StringTokenizerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam12/IntegerCompareExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam15/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam16/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch12/exam17/PatternMatcherExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam02/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam02/ContainerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam03/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam03/ContainerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam04/ChildPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam04/OtherPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam04/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam04/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch13/exam04/UtilExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch14/exam02/MovieThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch14/exam02/MusicRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch14/exam02/ThreadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch14/exam06/MovieThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch14/exam06/ThreadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch14/exam08/MovieThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch14/exam08/ThreadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch15/exam07/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch15/exam07/BoardDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch15/exam07/ListExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch15/exam08/HashSetExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch15/exam08/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch15/exam09/MapExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch15/exam10/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch15/exam10/TreeSetExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam04/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam05/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam05/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam06/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam06/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam07/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam07/Operator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam08/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam08/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam08/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam09/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam09/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch16/exam09/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch17/exam05/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch17/exam06/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch17/exam06/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch17/exam07/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch17/exam07/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch17/exam08/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch17/exam08/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch18/exam07/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch18/exam10/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch19/exam07/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch19/exam07/ProductClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch19/exam07/ProductServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam08/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam08/BoardExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam08/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam09/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam09/BoardExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam09/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam10/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam10/BoardExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/projects/thisisjava_appendix_verify/src/ch20/exam10/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/mysql/account.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/mysql/boards.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/mysql/users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/oracle/account.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/oracle/boards.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/oracle/function.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/oracle/procesure.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/oracle/sequence.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source/sql/oracle/users.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2dAZx9qAjpaJaES1Jwdzv3Fl6ea" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef710dec-2a14-450a-94f5-afe8f48c363f" name="Changes" comment="" />
+      <created>1709453087570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709453087570</updated>
+    </task>
+    <servers />
+  </component>
+</project>

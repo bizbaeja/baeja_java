@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d94285c-da40-4eb3-820f-aed48888259f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../join/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../join/BoardDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../join/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../join/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../join/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../join/UsersDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../join/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baeja_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../baeja_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch07/sec11/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch07/sec11/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch07/sec11/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch07/sec11/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board2/BoardExample10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Board2/BoardExample10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/UsersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../users/UsersDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/baeja_java/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/baeja_java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/baeja_java/baeja_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/baeja_java/baeja_java.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2dU1O7WFRDU7jNZ9pgfjd0yZU2j" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d94285c-da40-4eb3-820f-aed48888259f" name="Changes" comment="" />
+      <created>1710047807733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710047807733</updated>
+    </task>
+    <servers />
+  </component>
+</project>

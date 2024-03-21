@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="global.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>회원 정보 입력</h2>
+    <form action="list.jsp" method="post">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id"><br>
+
+        <label for="name">이름:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="age">나이:</label><br>
+        <input type="number" id="age" name="age"><br>
+        
+        <label for="birthday" >생년월일</label>
+        <input type="date" id="birthday" name="birthday"><br>
+
+        <label for="email">이메일:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+       <h2>성별</h2>
+        <input type="radio" id="man" name="gender" value="man">
+        <label for="man">남자</label>   
+        <input type="radio" id="woman" name="gender" value="woman">
+        <label for="woman">여자</label>   
+         <input type="submit" value="insert"><br>
+
+         <h2>취미</h2>
+            <select name="hobbies">
+                <option value="태권도">태권도</option> 
+                <option value="쥐구경">동물구경</option>
+                <option value="고양이구경">야옹이구경</option>
+            </select>
+        <!--등록버튼을 누르면 list.jsp로 이동합니다.-->
+        <button type="button" onclick="location.href='list.html'">등록</button>
+    </form>
+</body>
+</html>

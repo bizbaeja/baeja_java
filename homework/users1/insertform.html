@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User insert form</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+        input {
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        등록 임시 화면
+    </h1>
+    <div>
+        <form action="insert.html">
+            <label for="userid">
+                id:
+            </label>
+            <input type="text" id="userid" name="userid"><br>
+            <label for="userpassword">
+                password:
+            </label>
+            <input type="text" id="userpassword" name="userpassword"><br>
+            <label for="useremail">
+                email:
+            </label>
+            <input type="text" id="useremail" name="useremail"><br>
+            <label for="male">남성
+                <input type="radio" id="male" name="gender" value="male">
+            </label>
+            <label for="female">여성
+                <input type="radio" id="female" name="gender" value="female">
+            </label><br>
+            <input type="submit" value="add">
+        </form>
+    </div>
+</body>
+</html>
